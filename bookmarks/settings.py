@@ -57,7 +57,7 @@ ROOT_URLCONF = 'bookmarks.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / 'account' / 'templates' / 'account'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
